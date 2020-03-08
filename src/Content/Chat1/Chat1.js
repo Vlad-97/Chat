@@ -2,7 +2,7 @@ import React from 'react';
 import '../style.css';
 import './Chat1.css';
 
-
+  
 const Chat1 = () => {
     let state = {
         posts: [
