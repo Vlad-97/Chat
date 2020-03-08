@@ -1,0 +1,8 @@
+.Container {
+    display: flex;
+    background-color: rgba(202, 197, 197, 0.308);
+}
+
+.Container__sidebar {
+    margin-left: 400px;
+}

@@ -1,0 +1,54 @@
+.Sidebar {
+    background-color: #fff;
+    width: 285px;
+    height: 550px;
+    box-shadow: 10px 6px 10px 6px rgba(85, 83, 83, 0.308);
+    margin: 20px 15px;
+}
+
+.Sidebar .Title {
+    color: blue;
+    border: none;
+    width: 110px;
+    margin: 0 20px;
+    padding-top: 33px;
+    font-size: 20px;
+}
+
+.Sidebar hr {
+    margin: 33px 0 0 0;
+    padding: 0;
+    width: 283px;
+}
+
+.Sidebar .Date {
+    float: left;
+}
+
+.react-date-picker__calendar {
+    width: 286px;
+}
+
+.Sidebar .Hr1 {
+    margin-top: 278px;
+    padding: 0;}
+
+.AddEvent {
+    display: flex; 
+    position: relative;
+    margin-top: 309px;
+    height: 150px;
+}
+
+.AddEvent .AddButton {
+    margin-top: 80px;
+    padding: 20px;
+    width: 284px;
+    color: blue;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    height: 70px;
+}

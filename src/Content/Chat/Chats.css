@@ -1,0 +1,91 @@
+.Chats {
+    background-color: #fff;
+    max-width: 300px; 
+    height: 550px;
+    box-shadow: 10px 6px 10px 6px rgba(85, 83, 83, 0.308); 
+    margin: 20px 15px;
+}
+
+
+.Chats button { 
+    color: blue;
+    border: none;
+    width: 110px;
+    height: 60px;
+    margin: 15px 20px;
+    background-color: #f9f9f93f;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.Chats hr {
+    padding: 0;
+    margin: 0;
+}
+
+.Chats button:hover {
+    color: rgb(128, 128, 128);
+    background-color: rgba(128, 128, 128, 0.24);
+}
+
+
+.Messenger__chats {
+    background-color: #fff;
+    height: 70px;
+    max-width: 300px;
+    padding: 0;
+    margin: 0; 
+}
+
+.Messenger__chats:hover {
+    background-color: #4d48482a;
+}
+
+.Chat__info h3 {
+    font-size: 18px;
+    margin: 0 75px;
+    padding-top: 15px;
+    display: inline-block;
+    text-decoration: none; 
+}
+
+.Chat__info p {
+    font-size: 16px;
+    margin: 0 80px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.Messenger__chats .image1 {
+    background-image: url(../../images/user2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius:30px;
+    position: absolute;
+    margin: 10px 15px;
+}
+
+.Messenger__chats .image2 {
+    background-image: url(../../images/user3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius:30px;
+    position: absolute;
+    margin: 10px 15px;
+}
+
+
+.Messenger__chats .image3 {
+    background-image: url(../../images/user4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius:30px;
+    position: absolute;
+    margin: 10px 15px;
+}

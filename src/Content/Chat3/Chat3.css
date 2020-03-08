@@ -1,0 +1,169 @@
+.Content {
+    background-color: rgba(202, 197, 197, 0);
+    width: 300px;
+} 
+
+.Content .Content__user {
+    font-size: 22px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 20px;
+    padding: 30px 0 13px 25px;
+}
+
+.Content hr {
+    width: 600px;
+    margin-left: 50px;
+}
+
+.Content__user::after {
+    font-family: 'icomoon';
+    content: '\e942';
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 470px;
+}
+
+.Content__user::before {
+    font-family: 'icomoon';
+    content: '\e914';
+    position: absolute;
+    margin-left: 525px;
+}
+
+.Content .flickr::before {
+    font-family: 'icomoon';
+    content: '\eaa3';
+    position: absolute;
+    margin-left: 580px;
+    transform: rotate(90deg);
+    margin-top: -25px;
+}
+
+.Content .image__id3 {
+    background-image: url(../../images/user4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border-radius:30px;
+    position: absolute; 
+    margin: 0 40px;
+} 
+
+.Content .Messages1 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    width: 250px;
+    border-radius: 30px; 
+    text-align: center;
+    padding: 10px;
+    margin: 20px 100px;
+}
+
+.Content .Messages2__image {
+    background-image: url(../../images/user1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    border-radius:30px;
+    position: absolute; 
+    margin: 0 610px;
+} 
+
+.Content .Messages2 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(28, 28, 245, 0.74);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    width: 250px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 325px;
+}
+
+.Content .Message__id3 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    width: 380px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 100px;
+}
+
+.Content .Message__id4 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(28, 28, 245, 0.74);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    width: 420px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 155px;
+}
+
+.Content .Message__id5 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    width: 520px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 100px;
+}
+
+.Send__message textarea {
+    width: 600px;
+    height: 50px;
+    margin: 47px 50px;
+    border-radius: 10px;
+}
+
+.Send__message {
+    display: flex;
+    margin: 150px 310px;
+}
+
+.Send__message .File__message {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    float: right;
+    margin: 50px -145px;
+    border: none;
+    background-color: white;
+}
+  
+.Send__message .File__message::after {
+    font-family: 'icomoon';
+    content: '\e9cd';
+    display: flex;
+    transform: rotate(315deg);
+}
+
+.Send__message .Send__button {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    float: right;
+    margin: 55px -104px;
+    border: none;
+    background-color: rgba(0, 0, 255, 0.76);
+    border-radius: 30px;
+}
+
+.Send__message .Send__button::after {
+    font-family: 'icomoon';
+    content: '\e949';
+}
