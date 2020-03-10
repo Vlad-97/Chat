@@ -7,7 +7,7 @@ const Chats = () => {
 
     let addpost = () => {
         let text = newPostElement.current.value;
-        alert ('asumem barev')
+        alert ('barev')
     } 
 
     return (
