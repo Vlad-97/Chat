@@ -2,7 +2,7 @@ import React from 'react';
 import '../style.css';
 import './Chat1.css';
 
-  
+
 const Chat1 = () => {
     let state = {
         posts: [
@@ -13,6 +13,7 @@ const Chat1 = () => {
             { id: 5, message: 'ok. I wil wait!!' },
         ],
         addPost: posts.map(el).push
+        
     }
 
     return (
