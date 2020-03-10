@@ -12,10 +12,7 @@ const Chat1 = () => {
             { id: 4, message: 'maybe at night if I’m at home.))' },
             { id: 5, message: 'ok. I wil wait!!' },
         ],
-        addPost: posts.map(el).push
-        
-    }
-
+    } 
     return (
         <div className='Content'>
             <div className='Content__user'> Fikri Ruslandi <div className='flickr'> </div></div>
